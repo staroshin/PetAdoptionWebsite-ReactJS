@@ -1,36 +1,22 @@
- 
 import React, { useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import './Slider.css';
-
-import {useEffect} from "react";
-import {Link} from "react-router-dom"
-import rate from '../img/rate.svg'
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import car_img from '../img/slide_img1.png'
 import car_img2 from '../img/slide_img2.png'
 import car_img3 from '../img/slide_img3.png'
 import car_img4 from '../img/slide_img4.png'
-
-  
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF,faTwitter,faInstagram} from '@fortawesome/free-brands-svg-icons';
+
 
 
 
 
 function PopularPets() {
   
-
-
- 
-
   return (
     <div className='part_catg'>
     <Container>
@@ -155,7 +141,7 @@ function PopularPets() {
 
                       
                     
-                    </Row>
+    </Row>
 
 
 
